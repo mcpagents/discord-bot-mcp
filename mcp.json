@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "bun",
+      "args": ["src/index.ts"],
+      "env": {
+        "DISCORD_TOKEN": "${DISCORD_TOKEN}"
+      }
+    }
+  }
+}
